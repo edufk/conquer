@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+
+<link href="css/styles.css" type="text/css" rel="stylesheet"/>
+
+</head>
+
+<body onload="app.onDeviceReady();">
+
+<header>
+	<div class="logo">
+    	<a href="goToPage()"><img src="images/header-logo.png" alt="Conquer Logo" /></a>
+    </div>
+    <div id="userMenu">
+    	<ul>
+        	<li><a>Item 1</a></li>
+        	<li><a>Item 2</a></li>
+        	<li><a>Item 3</a></li>
+        	<li><a>Item 4</a></li>
+        </ul>
+    </div>
+    <div class="clearBoth"></div>
+</header>
+<section id="content-wrapper">
+	<div class="mainMenu-wrapper">
+    </div>
+    <div id="main-content"></div>
+</section>
+<footer>
+<p>footer</p>
+</footer>
+
+<script src="phonegap.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/scripts.js"></script>
+<script>
+	app.initialize();
+</script>
+
+</body>
+</html>

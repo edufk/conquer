@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:#dddddd;
+	padding:5px;
+	margin:0;
+	font-family: 'Helvetica Neue',Arial,Helvetica,sans-serif;
+	font-size: 13px;
+}
+#content-wrapper{
+	background: white;
+	-webkit-border-radius: 20px 20px 0 0;
+	border-radius: 20px 20px 0 0;
+	-webkit-box-shadow: 0 -2px 6px 0 #aaaaaa;
+	box-shadow: 0 -2px 6px 0 #aaaaaa;
+	padding: 10px 10px;
+}
+
+header{
+	padding:10px;
+}
+.logo{
+	float: left;
+	margin-right: 20px;
+	margin-bottom:10px;
+}
+#userMenu{
+	float:right;
+}
+#userMenu ul{
+	margin:0;
+	padding:0;
+}
+#userMenu li{
+	list-style:none;
+	display:block;
+	float:left;
+	margin-left:10px;
+	padding-right:10px;
+	border-right:1px solid #333;
+}
+#userMenu li:last-child{
+	border-right:none;
+}
+
+
+.mainMenu{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.mainMenu li{
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	display: block;
+	list-style: none;
+	margin: 0 0 8px 0;
+	padding: 8px 0;
+	text-transform: uppercase;
+	font-size: 16px;
+	background-color: #747881;
+	background-image: url(../images/menu-overlay.png);
+	background-position: 0 0;
+	background-repeat: repeat-y;
+	color:#FFF;
+}
+.mainMenu li li{
+	background:none;
+}
+.mainMenu li li li{
+	padding: 3px 1px 2px 10px;
+	font-size: 12px;
+	margin-bottom: 0;
+	background: url(../images/dub-chev-w.png) no-repeat 0 7px;
+}
+
+.mainMenu li a{
+	color:#FFF;
+	cursor:pointer;
+	padding: 1px 15px;
+	text-decoration: none;
+	display: block;
+	font-weight: bold;
+}
+.mainMenu ul{
+	padding:3px 5px;
+}
+.mainMenu ul li a{
+	padding:0px 3px;
+	text-transform:none;
+}
+.mainMenu ul.mainMenuSub{
+	border-top:1px solid #9EA1A6;
+	margin-left:10px;
+}
+.mainMenu .mainMenuSub li {
+	margin-bottom: 0;
+}
+
+footer{
+	background-color: #00457c;
+	-webkit-border-radius: 0 0 20px 20px;
+	border-radius: 0 0 20px 20px;
+	-webkit-box-shadow: 0 2px 6px 0 #888888;
+	box-shadow: 0 2px 6px 0 #888888;
+	color: white;
+	margin-bottom: 15px;
+	padding: 16px 10px;
+}
+
+footer .block{
+	display:block;
+	float:left;
+	width:50%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Interstate','Helvetica Neue',Arial,Helvetica,sans-serif;
+	color: #00457B;
+	line-height: 125%;
+}
+
+h1, h1.title {
+	font-weight: bold;
+	font: bold 24px/1 "Interstate","Helvetica Neue",Arial,Helvetica,sans-serif;
+	text-transform: uppercase;
+	padding: 10px 0 5px 0;
+	margin: 0;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 18px;
+	padding: 10px 0 5px 0;
+	margin: 0;
+}
+h2 a {
+	text-decoration: none;
+}
+
+.clearBoth{
+	clear:both;
+}
